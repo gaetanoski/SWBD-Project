@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('../img/sfondo2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.app-button {
+    background-color: #008CBA;
+    width: 100%;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.app-button:hover {
+    background-color: #007B9E;
+}
